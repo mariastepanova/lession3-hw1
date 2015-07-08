@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Lession 3 - Homework 1 - Working with arrays</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/material.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script src="js/material.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div class="homework-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+		<header class="homework-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title">Lession 3 - Homework 1</span>
+			</div>
+		</header>
+
+		<div class="homework-ribbon"></div>
+		<main class="homework-main mdl-layout__content">
+			<div class="homework-container mdl-grid">
+				<div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+				<div class="homework-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+					<h3>Работа с массивами</h3>
+	
+					<p>В этом задании вам нужно будет написать несколько полезных функций для работы с массивами.</p>
+
+					<p>
+						В частности:
+						<ul>
+							<li><code>chunk</code> - Разделяет массив на куски по size элементов. В последнем куске может быть меньше элементов чем size</li>
+							<li><code>flatten</code> - Выравнивет вложенный массив в невложенный. То есть в итоговом массиве других массивов быть не может</li>
+							<li><code>intersection</code> - Возвращает массив со значениями, встречающимися во всех входящих массивах</li>
+							<li><code>remove</code> - Удаляет из массива все элементы, вызов предиката для которых возвращает true</li>
+							<li><code>uniq</code> - Удаляет из массива повторенные элементы</li>
+							<li><code>union</code> - Объединяет массивы, но не включая повторы элементов</li>
+							<li><code>zip</code> - Создает массив сгруппированных элементов, в котором первый массив - это массив первых элементов входящих массивов, и т.д.</li>
+						</ul>
+					</p>
+					<p>
+						Напоминаю, что существует много уже встроенных в <code>Array.prototype</code> методов. 
+						Ознакомиться с ними подробно можно 
+						<a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Methods" target="_blank">здесь</a>
+					</p>
+					
+					<p>Сами задания вы найдете в файле <code>main.js</code> - там же вам их и нужно реализовать.</p>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
