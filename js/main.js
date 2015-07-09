@@ -13,7 +13,7 @@
  * chunk(['a', 'b', 'c', 'd'], 3); // => [['a', 'b', 'c'], ['d']]
  */
 function chunk(array, size) {
-
+trdtdtrdtrdtrd
 }
 
 
